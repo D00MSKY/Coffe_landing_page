@@ -274,7 +274,7 @@ header{
 .i_img6, .i_img9{
     margin-right: 147px;
 }
-.i_fifth{
+.i_fifth, #loadMore{
     color: #FF4B32;
     text-align: center;
     font-family: "Open Sans";
@@ -284,6 +284,7 @@ header{
     line-height: 150%;
     margin-top: 7.32vh;
     margin-bottom: 13vh;
+    text-decoration: none;
 }
 
 /*-----------------------------------portens section----------------------------------------*/
@@ -322,7 +323,7 @@ header{
 .open-sans {
     font-family: "Open Sans", sans-serif;
     font-optical-sizing: auto;
-    font-weight: <weight>;
+    font-weight: 400;
     font-style: normal;
     font-variation-settings:
             "wdth" 100;
@@ -330,7 +331,7 @@ header{
 .josefin-sans {
     font-family: "Josefin Sans", sans-serif;
     font-optical-sizing: auto;
-    font-weight: <weight>;
+    font-weight: 400;
     font-style: normal;
 }
 .portensp2{
@@ -450,6 +451,7 @@ header{
     font-style: normal;
     font-weight: 600;
     line-height: 130%; /* 41.6px */
+    margin-top: 4vh;
 }
 .coffe_beans_text{
     padding: 10px;
@@ -459,6 +461,8 @@ header{
     font-style: normal;
     font-weight: 400;
     line-height: 160%; /* 25.6px */
+    margin-top: 3vh;
+    margin-bottom: 3vh;
 }
 .update_news{
     color: #000;
@@ -484,13 +488,7 @@ header{
 #margB{
     margin-bottom: 9vh;
 }
-#margB2{
-    margin-top: 3vh;
-    margin-bottom: 3vh;
-}
-#margB3{
-    margin-top: 4vh;
-}
+
 
 /*----------------------------StasyaPodk section--------------------------------*/
 
